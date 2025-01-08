@@ -14,7 +14,6 @@ import java.util.List;
 
 @Table(name = "usuarios")
 @Entity(name = "Usuario")
-@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
@@ -26,6 +25,30 @@ public class Usuario implements UserDetails {
     private Long id;
     private String login;
     private String clave;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getClave() {
+        return clave;
+    }
+
+    public void setClave(String clave) {
+        this.clave = clave;
+    }
 
     @Override
     public boolean isAccountNonExpired() {
