@@ -39,6 +39,29 @@ The API provides several endpoints to interact with doctor data:
 
 ---
 
+Aquí tienes la sección actualizada con la información sobre el uso de MySQL y Flyway para la gestión de registros en la API:
+
+---
+
+### Database Integration with MySQL and Flyway
+
+This REST API leverages **MySQL** as its relational database for storing doctor and address data. MySQL provides a robust and reliable storage solution, ensuring high performance and scalability for medical management needs. 
+
+To manage database schema migrations, the API uses **Flyway**, a popular version control tool for databases. Flyway simplifies the process of applying schema changes and keeps the database structure consistent across development, staging, and production environments.
+
+#### Key Features of Flyway in this API:
+1. **Schema Management**:
+   - Flyway automates the creation and versioning of database schemas, ensuring that the structure aligns with the application's requirements.
+   - Migration scripts are written in SQL and stored in the `src/main/resources/db/migration` folder.
+
+2. **Seamless Updates**:
+   - Whenever the application starts, Flyway checks for new migration scripts and applies them in the correct order, updating the database schema without manual intervention.
+
+3. **Consistency Across Environments**:
+   - Using Flyway guarantees that all environments (development, staging, and production) have the same schema, reducing deployment errors.
+
+---
+
 
 ### Security
 
