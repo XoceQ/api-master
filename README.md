@@ -41,7 +41,13 @@ The API provides several endpoints to interact with doctor data:
 
 ### Security
 
-The API is secured using Spring Security, ensuring that only authenticated and authorized users can access the endpoints. This can be implemented using JSON Web Tokens (JWT) or sessions, depending on application requirements.
+The API is secured using **Spring Security** with **JSON Web Tokens (JWT)** for authentication and authorization. This implementation ensures that:  
+
+1. Only authenticated users can access the endpoints by requiring a valid JWT in the `Authorization` header for each request.  
+2. Role-based access control is enforced to restrict specific endpoints to authorized users.  
+3. JWT tokens are signed and validated to prevent tampering and ensure secure communication.  
+
+This approach provides a stateless security mechanism, reducing server-side overhead and enhancing scalability. 
 
 ---
 
