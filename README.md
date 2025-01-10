@@ -25,18 +25,21 @@ The /doctors endpoint represents a set of resources related to doctors.
 
 
 <H2>JSON</H2>: 
+```json
 {
   "nombre": "Dr. Andres Ta",
   "email": "carlos.ta@example.com",
-  "documento": "442222",
-	"telefono": "3213282900",
+  "documento": "1085322222",
+  "telefono": "3213282900",
   "especialidad": "ORTOPEDIA",
-	"direccion": {
-		"calle": "Av. park",
-		"distrito": "rojo",
-		"complemento": "Departamento 101",
-		"numero": "777-1234",
-		"ciudad": "Bogota"
-	}
+  "direccion": {
+    "calle": "Av. el dorado",
+    "distrito": "Doce",
+    "complemento": "Departamento 101",
+    "numero": "777-1234",
+    "ciudad": "Bogota"
+  }
 }
+```
+
 
