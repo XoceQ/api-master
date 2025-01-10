@@ -1,5 +1,5 @@
 <H1>API REST</H1>
-Characteristics of your REST API:
+Characteristics of  REST API:
 REST (Representational State Transfer) architecture:
 
 The API follows REST principles by exposing endpoints via HTTP (@RestController and @RequestMapping).
