@@ -1,4 +1,4 @@
-### REST API Description for Doctor Management
+### REST API for Doctor Management
 
 This REST API, developed with Spring Boot and Spring Security, allows managing data related to doctors through HTTP requests. The API is designed to be secure, scalable, and user-friendly, providing a set of endpoints for performing CRUD operations (Create, Read, Update, and Delete) on doctor data.
 
