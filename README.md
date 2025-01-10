@@ -1,4 +1,4 @@
-### REST API Description for Doctor Management
+### REST API for Medical Management
 
 This REST API, developed with Spring Boot and Spring Security, allows managing data related to doctors through HTTP requests. The API is designed to be secure, scalable, and user-friendly, providing a set of endpoints for performing CRUD operations (Create, Read, Update, and Delete) on doctor data.
 
@@ -39,6 +39,7 @@ The API provides several endpoints to interact with doctor data:
 
 ---
 
+
 ### Security
 
 The API is secured using **Spring Security** with **JSON Web Tokens (JWT)** for authentication and authorization. This implementation ensures that:  
@@ -48,6 +49,7 @@ The API is secured using **Spring Security** with **JSON Web Tokens (JWT)** for 
 3. JWT tokens are signed and validated to prevent tampering and ensure secure communication.  
 
 This approach provides a stateless security mechanism, reducing server-side overhead and enhancing scalability. 
+
 
 ---
 
