@@ -39,9 +39,6 @@ The API provides several endpoints to interact with doctor data:
 
 ---
 
-Aquí tienes la sección actualizada con la información sobre el uso de MySQL y Flyway para la gestión de registros en la API:
-
----
 
 ### Database Integration with MySQL and Flyway
 
