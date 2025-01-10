@@ -39,11 +39,6 @@ The API provides several endpoints to interact with doctor data:
 
 ---
 
-### Security
-
-Si tu API ya usa JWT, puedes modificar esa sección para resaltar esta implementación de manera más específica y técnica. Aquí tienes una versión revisada que destaca el uso de JWT:
-
----
 
 ### Security
 
